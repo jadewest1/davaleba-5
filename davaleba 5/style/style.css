@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(238, 122, 170);
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+  .fashion_usa{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  .fashion_usa a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+  .fashion_usa a:hover {
+    background-color: #f1f1f1}
+
+  .dropdown:hover .fashion_usa {
+    display: block;
+}
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+  .fashion_korea{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgb(221, 12, 12);
+    z-index: 1;
+}
+
+.fashion_korea a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fashion_korea a:hover {
+  background-color: #f1f1f1}
+
+.dropdown:hover .fashion_korea {
+  display: block;
+}
+
